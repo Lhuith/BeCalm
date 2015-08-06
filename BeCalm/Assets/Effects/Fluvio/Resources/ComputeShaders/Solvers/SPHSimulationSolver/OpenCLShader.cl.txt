@@ -1,0 +1,9 @@
+#pragma kernel Solver_NeighborSearch
+#pragma kernel Solver_DensityPressure
+#pragma kernel Solver_SurfaceTension
+#pragma kernel Solver_Forces
+#pragma kernel Solver_Turbulence
+#pragma kernel Solver_ExternalForces
+#pragma kernel Solver_Constraints
+#pragma builtin
+#include "ComputeShader.cginc"

@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: e7ac53af30f68fd45877f0aca620f5e1
+timeCreated: 1438096911
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cape_Bones
+    100002: Cape_Bones_01
+    100004: Cape_Bones_0101
+    100006: Cape_Bones_0102
+    100008: Cape_Bones_0103
+    100010: Cape_Bones_0104
+    100012: Cape_Bones_0105
+    100014: Cape_Bones_106
+    100016: Cape_Bones_107
+    100018: Cape_Bones_108
+    100020: Cape_Bones_109
+    100022: Cape_Bones_110
+    100024: Cape_Bones_111
+    100026: Cape_Bones_112
+    100028: Cape_Bones_113
+    100030: Cape_Bones_114
+    100032: Cape_Bones_115
+    100034: Cape_Bones_116
+    100036: Cape_Bones_117
+    100038: CATRigAnkleBone001
+    100040: CATRigAnkleBone001 1
+    100042: CATRigAnkleBone001Bone001
+    100044: CATRigAnkleBone001Bone001 1
+    100046: CATRigHub001
+    100048: CATRigLArm1
+    100050: CATRigLArm2
+    100052: CATRigLArmCollarbone
+    100054: CATRigLArmDigit11
+    100056: CATRigLArmDigit12
+    100058: CATRigLArmDigit12 1
+    100060: CATRigLArmDigit21
+    100062: CATRigLArmDigit22
+    100064: CATRigLArmDigit23
+    100066: CATRigLArmDigit31
+    100068: CATRigLArmDigit32
+    100070: CATRigLArmDigit33
+    100072: CATRigLArmDigit41
+    100074: CATRigLArmDigit42
+    100076: CATRigLArmDigit43
+    100078: CATRigLArmPalm
+    100080: CATRigLLeg1
+    100082: CATRigLLeg2
+    100084: CATRigLLegAnkle
+    100086: CATRigLLegPlatform
+    100088: CATRigRArm1
+    100090: CATRigRArm2
+    100092: CATRigRArmCollarbone
+    100094: CATRigRArmDigit11
+    100096: CATRigRArmDigit12
+    100098: CATRigRArmDigit12 1
+    100100: CATRigRArmDigit21
+    100102: CATRigRArmDigit22
+    100104: CATRigRArmDigit23
+    100106: CATRigRArmDigit31
+    100108: CATRigRArmDigit32
+    100110: CATRigRArmDigit33
+    100112: CATRigRArmDigit41
+    100114: CATRigRArmDigit42
+    100116: CATRigRArmDigit43
+    100118: CATRigRArmPalm
+    100120: CATRigRLeg1
+    100122: CATRigRLeg2
+    100124: CATRigRLegAnkle
+    100126: CATRigRLegPlatform
+    100128: CATRigSpine1
+    100130: CATRigSpine2
+    100132: CATRigSpine3
+    100134: CATRigSpine5
+    100136: ConnectoerSpine
+    100138: Hoodie_Bones
+    100140: Hoodie_Bones 1
+    100142: Hoodie_Bones01
+    100144: Hoodie_Bones02
+    100146: Hoodie_Bones03
+    100148: Hoodie_Bones04
+    100150: Hoodie_Bones05
+    100152: Hoodie_Bones06
+    100154: NeckSpine
+    100156: Rooji
+    100158: Rooji_Kilt
+    100160: //RootNode
+    100162: Root_Parent
+    100164: 'Shamisen '
+    100166: SideSack
+    100168: Telescope
+    400000: Cape_Bones
+    400002: Cape_Bones_01
+    400004: Cape_Bones_0101
+    400006: Cape_Bones_0102
+    400008: Cape_Bones_0103
+    400010: Cape_Bones_0104
+    400012: Cape_Bones_0105
+    400014: Cape_Bones_106
+    400016: Cape_Bones_107
+    400018: Cape_Bones_108
+    400020: Cape_Bones_109
+    400022: Cape_Bones_110
+    400024: Cape_Bones_111
+    400026: Cape_Bones_112
+    400028: Cape_Bones_113
+    400030: Cape_Bones_114
+    400032: Cape_Bones_115
+    400034: Cape_Bones_116
+    400036: Cape_Bones_117
+    400038: CATRigAnkleBone001
+    400040: CATRigAnkleBone001 1
+    400042: CATRigAnkleBone001Bone001
+    400044: CATRigAnkleBone001Bone001 1
+    400046: CATRigHub001
+    400048: CATRigLArm1
+    400050: CATRigLArm2
+    400052: CATRigLArmCollarbone
+    400054: CATRigLArmDigit11
+    400056: CATRigLArmDigit12
+    400058: CATRigLArmDigit12 1
+    400060: CATRigLArmDigit21
+    400062: CATRigLArmDigit22
+    400064: CATRigLArmDigit23
+    400066: CATRigLArmDigit31
+    400068: CATRigLArmDigit32
+    400070: CATRigLArmDigit33
+    400072: CATRigLArmDigit41
+    400074: CATRigLArmDigit42
+    400076: CATRigLArmDigit43
+    400078: CATRigLArmPalm
+    400080: CATRigLLeg1
+    400082: CATRigLLeg2
+    400084: CATRigLLegAnkle
+    400086: CATRigLLegPlatform
+    400088: CATRigRArm1
+    400090: CATRigRArm2
+    400092: CATRigRArmCollarbone
+    400094: CATRigRArmDigit11
+    400096: CATRigRArmDigit12
+    400098: CATRigRArmDigit12 1
+    400100: CATRigRArmDigit21
+    400102: CATRigRArmDigit22
+    400104: CATRigRArmDigit23
+    400106: CATRigRArmDigit31
+    400108: CATRigRArmDigit32
+    400110: CATRigRArmDigit33
+    400112: CATRigRArmDigit41
+    400114: CATRigRArmDigit42
+    400116: CATRigRArmDigit43
+    400118: CATRigRArmPalm
+    400120: CATRigRLeg1
+    400122: CATRigRLeg2
+    400124: CATRigRLegAnkle
+    400126: CATRigRLegPlatform
+    400128: CATRigSpine1
+    400130: CATRigSpine2
+    400132: CATRigSpine3
+    400134: CATRigSpine5
+    400136: ConnectoerSpine
+    400138: Hoodie_Bones
+    400140: Hoodie_Bones 1
+    400142: Hoodie_Bones01
+    400144: Hoodie_Bones02
+    400146: Hoodie_Bones03
+    400148: Hoodie_Bones04
+    400150: Hoodie_Bones05
+    400152: Hoodie_Bones06
+    400154: NeckSpine
+    400156: Rooji
+    400158: Rooji_Kilt
+    400160: //RootNode
+    400162: Root_Parent
+    400164: 'Shamisen '
+    400166: SideSack
+    400168: Telescope
+    2300000: CATRigAnkleBone001
+    2300002: CATRigAnkleBone001 1
+    2300004: CATRigAnkleBone001Bone001
+    2300006: CATRigAnkleBone001Bone001 1
+    2300008: CATRigHub001
+    2300010: CATRigLArm1
+    2300012: CATRigLArm2
+    2300014: CATRigLArmCollarbone
+    2300016: CATRigLArmDigit11
+    2300018: CATRigLArmDigit12
+    2300020: CATRigLArmDigit12 1
+    2300022: CATRigLArmDigit21
+    2300024: CATRigLArmDigit22
+    2300026: CATRigLArmDigit23
+    2300028: CATRigLArmDigit31
+    2300030: CATRigLArmDigit32
+    2300032: CATRigLArmDigit33
+    2300034: CATRigLArmDigit41
+    2300036: CATRigLArmDigit42
+    2300038: CATRigLArmDigit43
+    2300040: CATRigLArmPalm
+    2300042: CATRigLLeg1
+    2300044: CATRigLLeg2
+    2300046: CATRigLLegAnkle
+    2300048: CATRigRArm1
+    2300050: CATRigRArm2
+    2300052: CATRigRArmCollarbone
+    2300054: CATRigRArmDigit11
+    2300056: CATRigRArmDigit12
+    2300058: CATRigRArmDigit12 1
+    2300060: CATRigRArmDigit21
+    2300062: CATRigRArmDigit22
+    2300064: CATRigRArmDigit23
+    2300066: CATRigRArmDigit31
+    2300068: CATRigRArmDigit32
+    2300070: CATRigRArmDigit33
+    2300072: CATRigRArmDigit41
+    2300074: CATRigRArmDigit42
+    2300076: CATRigRArmDigit43
+    2300078: CATRigRArmPalm
+    2300080: CATRigRLeg1
+    2300082: CATRigRLeg2
+    2300084: CATRigRLegAnkle
+    2300086: CATRigSpine1
+    2300088: CATRigSpine2
+    2300090: CATRigSpine3
+    2300092: CATRigSpine5
+    2300094: ConnectoerSpine
+    2300096: NeckSpine
+    2300098: Rooji_Kilt
+    2300100: 'Shamisen '
+    2300102: SideSack
+    2300104: Telescope
+    3300000: CATRigAnkleBone001
+    3300002: CATRigAnkleBone001 1
+    3300004: CATRigAnkleBone001Bone001
+    3300006: CATRigAnkleBone001Bone001 1
+    3300008: CATRigHub001
+    3300010: CATRigLArm1
+    3300012: CATRigLArm2
+    3300014: CATRigLArmCollarbone
+    3300016: CATRigLArmDigit11
+    3300018: CATRigLArmDigit12
+    3300020: CATRigLArmDigit12 1
+    3300022: CATRigLArmDigit21
+    3300024: CATRigLArmDigit22
+    3300026: CATRigLArmDigit23
+    3300028: CATRigLArmDigit31
+    3300030: CATRigLArmDigit32
+    3300032: CATRigLArmDigit33
+    3300034: CATRigLArmDigit41
+    3300036: CATRigLArmDigit42
+    3300038: CATRigLArmDigit43
+    3300040: CATRigLArmPalm
+    3300042: CATRigLLeg1
+    3300044: CATRigLLeg2
+    3300046: CATRigLLegAnkle
+    3300048: CATRigRArm1
+    3300050: CATRigRArm2
+    3300052: CATRigRArmCollarbone
+    3300054: CATRigRArmDigit11
+    3300056: CATRigRArmDigit12
+    3300058: CATRigRArmDigit12 1
+    3300060: CATRigRArmDigit21
+    3300062: CATRigRArmDigit22
+    3300064: CATRigRArmDigit23
+    3300066: CATRigRArmDigit31
+    3300068: CATRigRArmDigit32
+    3300070: CATRigRArmDigit33
+    3300072: CATRigRArmDigit41
+    3300074: CATRigRArmDigit42
+    3300076: CATRigRArmDigit43
+    3300078: CATRigRArmPalm
+    3300080: CATRigRLeg1
+    3300082: CATRigRLeg2
+    3300084: CATRigRLegAnkle
+    3300086: CATRigSpine1
+    3300088: CATRigSpine2
+    3300090: CATRigSpine3
+    3300092: CATRigSpine5
+    3300094: ConnectoerSpine
+    3300096: NeckSpine
+    3300098: Rooji_Kilt
+    3300100: 'Shamisen '
+    3300102: SideSack
+    3300104: Telescope
+    4300000: Rooji
+    4300002: SideSack
+    4300004: 'Shamisen '
+    4300006: Telescope
+    4300008: Rooji_Kilt
+    4300010: CATRigHub001
+    4300012: CATRigLLeg1
+    4300014: CATRigLLeg2
+    4300016: CATRigLLegAnkle
+    4300018: CATRigAnkleBone001
+    4300020: CATRigAnkleBone001Bone001
+    4300022: CATRigRLeg1
+    4300024: CATRigRLeg2
+    4300026: CATRigRLegAnkle
+    4300028: CATRigAnkleBone001
+    4300030: CATRigAnkleBone001Bone001
+    4300032: CATRigSpine1
+    4300034: CATRigSpine2
+    4300036: CATRigSpine3
+    4300038: ConnectoerSpine
+    4300040: CATRigSpine5
+    4300042: NeckSpine
+    4300044: CATRigLArmCollarbone
+    4300046: CATRigLArm1
+    4300048: CATRigLArm2
+    4300050: CATRigLArmPalm
+    4300052: CATRigLArmDigit11
+    4300054: CATRigLArmDigit12
+    4300056: CATRigLArmDigit12
+    4300058: CATRigLArmDigit21
+    4300060: CATRigLArmDigit22
+    4300062: CATRigLArmDigit23
+    4300064: CATRigLArmDigit31
+    4300066: CATRigLArmDigit32
+    4300068: CATRigLArmDigit33
+    4300070: CATRigLArmDigit41
+    4300072: CATRigLArmDigit42
+    4300074: CATRigLArmDigit43
+    4300076: CATRigRArmCollarbone
+    4300078: CATRigRArm1
+    4300080: CATRigRArm2
+    4300082: CATRigRArmPalm
+    4300084: CATRigRArmDigit11
+    4300086: CATRigRArmDigit12
+    4300088: CATRigRArmDigit12
+    4300090: CATRigRArmDigit21
+    4300092: CATRigRArmDigit22
+    4300094: CATRigRArmDigit23
+    4300096: CATRigRArmDigit31
+    4300098: CATRigRArmDigit32
+    4300100: CATRigRArmDigit33
+    4300102: CATRigRArmDigit41
+    4300104: CATRigRArmDigit42
+    4300106: CATRigRArmDigit43
+    7400000: Rooji_idle
+    7400002: Rooji_Guitar
+    7400004: Rooji_Gaze
+    9500000: //RootNode
+    13700000: Rooji
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rooji_idle
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cape_Bones
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_01
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0101
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0102
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0103
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0104
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0105
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_106
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_107
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_108
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_109
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_110
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_111
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_112
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_113
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_114
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_115
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_116
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_117
+        weight: 1
+      - path: CATRigHub001
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigAnkleBone001
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigAnkleBone001/CATRigAnkleBone001Bone001
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigAnkleBone001
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigAnkleBone001
+          1/CATRigAnkleBone001Bone001 1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12/CATRigLArmDigit12
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22/CATRigLArmDigit23
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32/CATRigLArmDigit33
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42/CATRigLArmDigit43
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12/CATRigRArmDigit12
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22/CATRigRArmDigit23
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32/CATRigRArmDigit33
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42/CATRigRArmDigit43
+        weight: 1
+      - path: Hoodie_Bones
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones 1
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones01
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones02
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones03
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones04
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones05
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones06
+        weight: 1
+      - path: Rooji
+        weight: 1
+      - path: Rooji/Rooji_Kilt
+        weight: 1
+      - path: 'Rooji/Shamisen '
+        weight: 1
+      - path: Rooji/SideSack
+        weight: 1
+      - path: Rooji/Telescope
+        weight: 1
+      - path: Root_Parent
+        weight: 1
+      - path: Root_Parent/CATRigLLegPlatform
+        weight: 1
+      - path: Root_Parent/CATRigRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rooji_Guitar
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cape_Bones
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_01
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0101
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0102
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0103
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0104
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0105
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_106
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_107
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_108
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_109
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_110
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_111
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_112
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_113
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_114
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_115
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_116
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_117
+        weight: 1
+      - path: CATRigHub001
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigAnkleBone001
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigAnkleBone001/CATRigAnkleBone001Bone001
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigAnkleBone001
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigAnkleBone001
+          1/CATRigAnkleBone001Bone001 1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12/CATRigLArmDigit12
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22/CATRigLArmDigit23
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32/CATRigLArmDigit33
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42/CATRigLArmDigit43
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12/CATRigRArmDigit12
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22/CATRigRArmDigit23
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32/CATRigRArmDigit33
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42/CATRigRArmDigit43
+        weight: 1
+      - path: Hoodie_Bones
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones 1
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones01
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones02
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones03
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones04
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones05
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones06
+        weight: 1
+      - path: Rooji
+        weight: 1
+      - path: Rooji/Rooji_Kilt
+        weight: 1
+      - path: 'Rooji/Shamisen '
+        weight: 1
+      - path: Rooji/SideSack
+        weight: 1
+      - path: Rooji/Telescope
+        weight: 1
+      - path: Root_Parent
+        weight: 1
+      - path: Root_Parent/CATRigLLegPlatform
+        weight: 1
+      - path: Root_Parent/CATRigRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rooji_Gaze
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 20.1000004
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cape_Bones
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_01
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0101
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0102
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0103
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0104
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_0105
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_106
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_107
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_108
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_109
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_110
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_111
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_112
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_113
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_114
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_115
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_116
+        weight: 1
+      - path: Cape_Bones/Cape_Bones_117
+        weight: 1
+      - path: CATRigHub001
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigAnkleBone001
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/CATRigAnkleBone001/CATRigAnkleBone001Bone001
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigAnkleBone001
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/CATRigAnkleBone001
+          1/CATRigAnkleBone001Bone001 1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12/CATRigLArmDigit12
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22/CATRigLArmDigit23
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32/CATRigLArmDigit33
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit41/CATRigLArmDigit42/CATRigLArmDigit43
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12/CATRigRArmDigit12
+          1
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22/CATRigRArmDigit23
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32/CATRigRArmDigit33
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42
+        weight: 1
+      - path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/ConnectoerSpine/CATRigSpine5/NeckSpine/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit41/CATRigRArmDigit42/CATRigRArmDigit43
+        weight: 1
+      - path: Hoodie_Bones
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones 1
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones01
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones02
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones03
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones04
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones05
+        weight: 1
+      - path: Hoodie_Bones/Hoodie_Bones06
+        weight: 1
+      - path: Rooji
+        weight: 1
+      - path: Rooji/Rooji_Kilt
+        weight: 1
+      - path: 'Rooji/Shamisen '
+        weight: 1
+      - path: Rooji/SideSack
+        weight: 1
+      - path: Rooji/Telescope
+        weight: 1
+      - path: Root_Parent
+        weight: 1
+      - path: Root_Parent/CATRigLLegPlatform
+        weight: 1
+      - path: Root_Parent/CATRigRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
