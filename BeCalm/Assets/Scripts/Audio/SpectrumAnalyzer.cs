@@ -6,10 +6,10 @@ using System.Collections.Generic;
 public class SpectrumAnalyzer : MonoBehaviour {
 
 	public MusicLoad musicListLoad;
-	public AudioSource AudPlayer;
+	public AudioSource[] AudPlayer;
 
-	public AudioClip[] songs;
-	public AudioClip CurrentSong;
+	public AudioClip[] songsCalm, songsNotCalm;
+	public AudioClip CurrentCalmSong, CurrentNotCalmSong;
 
 	public GameObject[] cubes;
 	public Vector3 cubeScale, sphereScale;
@@ -35,22 +35,27 @@ public class SpectrumAnalyzer : MonoBehaviour {
 
 
 		cubes = GameObject.FindGameObjectsWithTag ("Cubes");
-		AudPlayer = Camera.main.GetComponent<AudioSource> ();
+		AudPlayer = Camera.main.GetComponents<AudioSource> ();
 
 		counter = 0;
 		//Loading Music from Music Loading Script
-		musicListLoad = Camera.main.GetComponent<MusicLoad> ();
-		songs = musicListLoad.songslist;
 		if (musicMode) {
-			CurrentSong = songs[0];
+			musicListLoad = Camera.main.GetComponent<MusicLoad> ();
+			songsCalm = musicListLoad.Calmsongslist;
+			songsNotCalm = musicListLoad.NotCalmsongslist;
 
-			PlaySong ();
+			NextCalmSong ();
+
+			CurrentCalmSong = songsCalm[0];
+			CurrentNotCalmSong = songsNotCalm[0];
+
+			NextNotCalmSong ();
 		}
 	}
 
 	public void togglemusic()
 	{
-		musicMode = !musicMode;
+		//musicMode = !musicMode;
 	}
 	// Update is called once per frame
 	void Update () {
@@ -59,9 +64,15 @@ public class SpectrumAnalyzer : MonoBehaviour {
 		            windPower23 + windPower24 + windPower25 + windPower26 + windPower27 + windPower28)/29;
 	
 			
-		if (!AudPlayer.isPlaying) {
+		if (!AudPlayer[0].isPlaying) {
 			if(isPlay){
-			NextSong();
+			NextSongCalmSong();
+			}
+		}
+
+		if (!AudPlayer[1].isPlaying) {
+			if(isPlay){
+				NextSongNotCalmSong();
 			}
 		}
 			
@@ -303,34 +314,56 @@ public class SpectrumAnalyzer : MonoBehaviour {
 */
 	}
 
-	public void PlaySong(){
-		AudPlayer.clip = CurrentSong;
-		AudPlayer.Play ();
+	public void NextSongCalmSong(){
+		AudPlayer[0].clip = CurrentCalmSong;
+		AudPlayer[0].Play ();
 		isPlay = true;
 	}
 
-	public void NextSong(){
-		if (counter < songs.Length) {
+	public void NextSongNotCalmSong(){
+		AudPlayer[1].clip = CurrentNotCalmSong;
+		AudPlayer[1].Play ();
+		isPlay = true;
+	}
+
+	public void NextCalmSong(){
+		if (counter < songsCalm.Length) {
 			counter ++;
-			CurrentSong = songs [counter];
-			AudPlayer.clip = CurrentSong;
-			PlaySong ();
+			CurrentCalmSong = songsCalm [counter];
+			AudPlayer[0].clip = CurrentCalmSong;
+
+			NextSongCalmSong ();
 		}
 	}
 
-	public void PrevSong(){
+	public void NextNotCalmSong(){
+		if (counter < songsNotCalm.Length) {
+			counter ++;
+			CurrentNotCalmSong = songsNotCalm [counter];
+			AudPlayer[1].clip = CurrentNotCalmSong;
+			NextSongNotCalmSong ();
+		}
+	}
+
+	public void PrevNotCalmSong(){
 		if (counter > 0) {
 			counter --;
-			CurrentSong = songs [counter];
-			AudPlayer.clip = CurrentSong;
-			PlaySong ();
+			CurrentNotCalmSong = songsNotCalm [counter];
+			AudPlayer[1].clip = CurrentNotCalmSong;
+			NextSongNotCalmSong ();
 		}
 	}
 
-	public void PauseSong(){
-		AudPlayer.Pause ();
+	public void PauseCalmSong(){
+		AudPlayer[0].Pause ();
 		isPlay = false;
 	}
+
+	public void PauseNotCalmSong(){
+		AudPlayer[1].Pause ();
+		isPlay = false;
+	}
+
 	void GetVolumeColor (float volume, MeshRenderer meshcolor) {
 
 		Color tempCol = new Color (meshcolor.material.color.r, meshcolor.material.color.g, meshcolor.material.color.b, tempEstregh);

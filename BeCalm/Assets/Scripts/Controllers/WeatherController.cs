@@ -11,12 +11,12 @@ public class WeatherController : MonoBehaviour {
 	public ColorCorrectionCurves colorCurve;
 	public Tonemapping toneMapper;
 	public SunShafts sunShafts;
-
+	public GameObject teleCam;
 	// Use this for initialization
 	void Start () {
 		fogDensity = RenderSettings.fogDensity;
-		skydome = GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ();
-		skydomeLight = skydome.m_sunIntensity;
+		//skydome = GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ();
+		//skydomeLight = skydome.m_sunIntensity;
 		colorCurve = Camera.main.GetComponent<ColorCorrectionCurves> ();
 		toneMapper = Camera.main.GetComponent<Tonemapping> ();
 		sunShafts = Camera.main.GetComponent<SunShafts> ();
@@ -30,17 +30,25 @@ public class WeatherController : MonoBehaviour {
 	void Update () {
 		RenderSettings.fogDensity = fogDensity;
 
-		if (GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ().m_sunIntensity > 10f) {
-			GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ().m_sunIntensity = skydomeLight - (FeedBackController.calm * 100);
-		} else 
+//			if (GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ().m_sunIntensity > 5f) {
+//				GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ().m_sunIntensity = skydomeLight - (FeedBackController.calm * 50);
+//			} else {
+//				//GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ().m_sunIntensity = skydomeLight - (FeedBackController.calm);
+//			}
+		if (Camera.main.GetComponent<Tonemapping> ().exposureAdjustment > 0.4) {
+			Camera.main.GetComponent<ColorCorrectionCurves> ().saturation = colorSat - (FeedBackController.calm * 1.5f);
+			teleCam.GetComponent<ColorCorrectionCurves> ().saturation = colorSat - (FeedBackController.calm * 1.5f);
+		}
+		if (Camera.main.GetComponent<Tonemapping> ().exposureAdjustment > 0.2) {
+			Camera.main.GetComponent<Tonemapping> ().exposureAdjustment = toneExp - (FeedBackController.calm * .6f);
+			teleCam.GetComponent<Tonemapping> ().exposureAdjustment = toneExp - (FeedBackController.calm * .6f);
+		}else if( Camera.main.GetComponent<Tonemapping> ().exposureAdjustment < 0.4f)
 		{
-			//GameObject.FindGameObjectWithTag ("SkyDome").GetComponent<Sky> ().m_sunIntensity = skydomeLight - (FeedBackController.calm);
+			//Camera.main.GetComponent<Tonemapping> ().exposureAdjustment += 0.1f;
 		}
-		Camera.main.GetComponent<ColorCorrectionCurves> ().saturation = colorSat - (FeedBackController.calm * 2);
-		if (Camera.main.GetComponent<Tonemapping> ().exposureAdjustment > 0.5) {
-			Camera.main.GetComponent<Tonemapping> ().exposureAdjustment = toneExp - (FeedBackController.calm * 4);
-		}
+	
 		Camera.main.GetComponent<SunShafts> ().sunShaftIntensity = sunShaftIntens - (FeedBackController.calm);
+		teleCam.GetComponent<SunShafts> ().sunShaftIntensity = sunShaftIntens - (FeedBackController.calm);
 
 	}
 }

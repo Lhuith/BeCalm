@@ -117,7 +117,7 @@ public class CloudSystem : MonoBehaviour {
 			if(cloudGameObjectList[i].activeInHierarchy == true){
 				//cloudGameObjectList[i].GetComponentInChildren<ParticleSystem>().enableEmission = false;
 				cloudGameObjectList [i].GetComponent<ParticleSystem>().maxParticles = (int)cloudController.cloudDensitiy;
-				cloudGameObjectList [i].GetComponent<ParticleSystem>().emissionRate  = cloudController.cloudEmisssive / 25;
+				cloudGameObjectList [i].GetComponent<ParticleSystem>().emissionRate  = 2 * FeedBackController.calm;
 				cloudGameObjectList [i].GetComponent<ParticleSystem>().startSpeed  = cloudController.cloudSpeed / 25;
 				cloudGameObjectList [i].GetComponent<Cloud_Script> ().MaxParticles = maxManagerParticles;
 				VolometricClouds(cloudGameObjectList [i]);
@@ -144,7 +144,7 @@ public class CloudSystem : MonoBehaviour {
 
 		//Debug.Log (cloudPercent/100);
 
-		if (cloudPercent > 60) 
+		if (FeedBackController.calm * 100 > 60) 
 		{
 			cloud.GetComponentsInChildren<ParticleSystem>()[1].enableEmission = true;;
 		}else
@@ -152,23 +152,23 @@ public class CloudSystem : MonoBehaviour {
 			//cloud.GetComponentInChildren<ParticleSystem>().Stop();
 			cloud.GetComponentsInChildren<ParticleSystem>()[1].enableEmission = false;;
 		}
-
+	
+		float diceRollx = Random.Range (1, 100);
 		for( int i = 0; i < numParticlesAlive; i++){
 
-
+			//float diceRollx = Random.Range (1, 100);
 			//cloudParticles [i].color = Color.Lerp (CloudColor, CloudStormyColor, FeedBackController.calm);
 			particleHeight = (((cloudParticles [i].position.y - CloudAlt) / CloudHeight) - offset);
 
-			if(cloudLerp < 0.9f){
-			CloudColor = Color.Lerp (cloadBaseColor, CloudStormyColor, cloudLerp);
-			}
+			CloudColor = Color.Lerp (cloadBaseColor, CloudStormyColor, FeedBackController.calm);
+
+
 			cloudParticles [i].color = Color.Lerp (CloudHighlight, CloudColor, particleHeight);
 
 			//MoveSegment (i + 1, particles [i].position.x, particles [i].position.y, particles [i].position.z);
-
-			int diceRollx = Random.Range (1, 100);
-
-			if (cloudPercent > 80 && diceRollx > 99) 
+			float randomNumber = Random.Range(1, numParticlesAlive);
+			{
+				if (FeedBackController.calm * 100 > 80 && diceRollx <= 1f && randomNumber == 15) 
 				{
 				cloudParticles [i].color = Color.white;
 				Vector3 particlePos = new Vector3 (cloudParticles [i].position.x, cloudParticles [i].position.y, cloudParticles [i].position.z);
@@ -176,7 +176,7 @@ public class CloudSystem : MonoBehaviour {
 				}
 
 			cloudParticleSystem.SetParticles(cloudParticles, numParticlesAlive);
-			
+			}
 		}
 
 
@@ -213,7 +213,7 @@ public class CloudSystem : MonoBehaviour {
 
 	void CreateLighnting(Vector3 pos)
 	{
-		Camera.main.GetComponent<AudioSource> ().PlayOneShot (LightningFoley, 1);
+		Camera.main.GetComponent<AudioSource> ().PlayOneShot (LightningFoley, .2f);
 		GameObject lightningInst = Instantiate (lightningObject, new Vector3 (pos.x, pos.y, pos.z), lightningObject.transform.rotation) as GameObject;
 		lightningInst.transform.parent = transform;
 	}

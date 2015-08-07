@@ -23,22 +23,30 @@ public class WaveController : MonoBehaviour {
 	void Update(){
 		//waveScale = FeedBackController.noise/2;
 
+
+		if (amplitude > amplitudeMax - .5f) {
+			amplitude = Mathf.Lerp (amplitudeMin, amplitudeMax, FeedBackController.calm);
+		}
+		waveSpeed.x = Mathf.Lerp (waveSpeedMin, waveSpeedMax,  FeedBackController.calm);
+		waveSpeed.y = Mathf.Lerp (waveSpeedMin, waveSpeedMax,  FeedBackController.calm);
+
+
 		if (FeedBackController.musicPeak && amplitude < amplitudeMax) {
-			amplitude += Mathf.Lerp (amplitudeMin, amplitudeMax, amplitudeIncreaseRate * Time.deltaTime) /10;
+			//amplitude += Mathf.Lerp (amplitudeMin, amplitudeMax, amplitudeIncreaseRate * Time.deltaTime) /10;
 		}else
 		{
 			if (amplitude > amplitudeMin) {
-				amplitude -= Mathf.Lerp (amplitudeMin, amplitudeMax, amplitudeDecayRate * Time.deltaTime)/10;
+				//amplitude -= Mathf.Lerp (amplitudeMin, amplitudeMax, amplitudeDecayRate * Time.deltaTime)/10;
 				
 			}
 		}
 
 		if (FeedBackController.musicPeak && waveSpeed.x < (waveSpeedMax - .2f) ) {
-			waveSpeed.x += Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedIncreament * Time.deltaTime);
+			//waveSpeed.x += Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedIncreament * Time.deltaTime);
 		}else
 		{
 			if (waveSpeed.x > waveSpeedMin) {
-				waveSpeed.x -= Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedwaveDecayRate * Time.deltaTime);
+				//waveSpeed.x -= Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedwaveDecayRate * Time.deltaTime);
 
 			}
 		}
@@ -47,11 +55,11 @@ public class WaveController : MonoBehaviour {
 
 
 		if (FeedBackController.musicPeak && waveSpeed.y < (waveSpeedMax - .2f)) {
-			waveSpeed.y += Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedIncreament * Time.deltaTime);
+			//waveSpeed.y += Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedIncreament * Time.deltaTime);
 		}else
 		{
 			if (waveSpeed.y > waveSpeedMin) {
-				waveSpeed.y -= Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedwaveDecayRate * Time.deltaTime);
+				//waveSpeed.y -= Mathf.Lerp (waveSpeedMin, waveSpeedMax, waveSpeedwaveDecayRate * Time.deltaTime);
 				
 			}
 		}

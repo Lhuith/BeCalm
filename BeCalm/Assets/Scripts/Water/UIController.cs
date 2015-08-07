@@ -24,6 +24,7 @@ public class UIController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		isManual = FeedBackeReader.notManual;
+
 		if (isManual) {
 			calmSlider.value = calmnessUIValue;
 		} else 
@@ -43,7 +44,7 @@ public class UIController : MonoBehaviour {
 
 		if (Input.GetButtonDown ("Fire7")) 
 		{
-			Application.LoadLevel(Application.loadedLevel);
+			//Application.LoadLevel(Application.loadedLevel);
 		}
 
 		if (isPlay) {
@@ -61,18 +62,18 @@ public class UIController : MonoBehaviour {
 	}
 
 	public void NextSong(){
-		specAny.NextSong ();
+		//specAny.NextSong ();
 	}
 
 	public void PrevSong(){
-		specAny.PrevSong ();
+		//specAny.PrevSong ();
 	}
 
 	public void PlayPuaseSong(){
 		if (!isPlay) {
-			specAny.PlaySong ();
+			//specAny.PlaySong ();
 		} else {
-			specAny.PauseSong ();
+			//specAny.PauseSong ();
 		}
 	}
 }

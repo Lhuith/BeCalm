@@ -52,7 +52,7 @@ public class Sky : MonoBehaviour
 		
 		//Transmittance is responsible for the change in the sun color as it moves
 		//The raw file is a 2D array of 32 bit floats with a range of 0 to 1
-		string path = Application.dataPath + "/Textures/transmittance.raw";
+		string path = Application.streamingAssetsPath  + "\\" + "/Textures/transmittance.raw";
 		
 		//This function loads the raw file, encodes each channel into a 2D texture
 		//and then decodes each channel into a 2D render texture using Graphics.Blit(). 
@@ -62,7 +62,7 @@ public class Sky : MonoBehaviour
 		//The raw file is a 4D array of 32 bit floats with a range of 0 to 1.589844
 		//As there is not such thing as a 4D texture the data is packed into a 2D texture 
 		//and the shader manually performs the sample for the 3rd and 4th dimension
-		path = Application.dataPath + "/Textures/inscatter.raw";
+		path = Application.streamingAssetsPath  + "\\" + "/Textures/inscatter.raw";
 		
 		EncodeFloat.WriteIntoRenderTexture(m_inscatter, INSCATTER_CHANNELS, path);
 		

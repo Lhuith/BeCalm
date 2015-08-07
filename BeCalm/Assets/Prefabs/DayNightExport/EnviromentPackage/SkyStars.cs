@@ -87,12 +87,18 @@ public class SkyStars : MonoBehaviour {
 		}
 
 	}
+
+	public void RemoveStar(GameObject star)
+	{
+		starPrefabsList.Remove (star);
+	}
+
 	public void UpdateStars()
 	{
 		for (int i = 0; i < starPrefabsList.Count; i++) {
 			if(starPrefabsList [i].activeInHierarchy){
-			Color starColor = new Vector4 (starPrefabsList [i].GetComponentInChildren< Renderer > ().material.color.r, starPrefabsList [i].GetComponentInChildren< Renderer > ().material.color.g, starPrefabsList [i].GetComponentInChildren< Renderer > ().material.color.b, starAlpha);
-			starPrefabsList [i].GetComponentInChildren<Renderer> ().material.color = starColor;
+			//Color starColor = new Vector4 (starPrefabsList [i].GetComponentInChildren< Renderer > ().material.color.r, starPrefabsList [i].GetComponentInChildren< Renderer > ().material.color.g, starPrefabsList [i].GetComponentInChildren< Renderer > ().material.color.b, starAlpha);
+			//starPrefabsList [i].GetComponentInChildren<Renderer> ().material.color = starColor;
 				if( starPrefabsList [i].transform.position.y < 1)
 				{
 					starPrefabsList [i].TurnOffGameObject ();

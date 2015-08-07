@@ -10,9 +10,9 @@ public class WindController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		windSpeedMin = 0;
-		windSpeedMax = 10;
-		windIntensity = .2f;
+//		windSpeedMin = 0;
+//		windSpeedMax = 10;
+//		windIntensity = .2f;
 		windMaker = GameObject.FindGameObjectWithTag("Wind").GetComponent<Wind>();
 		//breatheCreate = Camera.main.GetComponent<UserBreathe>();
 		//micInput = Camera.main.GetComponent<MicrophoneInput> ();
@@ -23,7 +23,10 @@ public class WindController : MonoBehaviour {
 	void Update () {
 
 		//windSpeed = Mathf.Lerp (Noise, windSpeedMin, windIntensity);;
-
+		if (windSpeed < 0) 
+		{ 
+			windSpeed += 1;
+		}
 		if (FeedBackController.musicPeak && windSpeed < windSpeedMax) {
 			windMaker.CreateWind(windSpeed);
 			//breatheCreate.CreateBreathe(windSpeed);

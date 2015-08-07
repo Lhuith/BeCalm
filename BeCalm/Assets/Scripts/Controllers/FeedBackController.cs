@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class FeedBackController : MonoBehaviour {
 
 	SpectrumAnalyzer audioInput;
@@ -14,7 +14,7 @@ public class FeedBackController : MonoBehaviour {
 	public static float calm;
 	public bool notManual;
 	public SpectrumAnalyzer specAny;
-
+	public Toggle toggle;
 	public float calmMax, calmMin, calmDecayRate, calmIncramentRate;
 
 	public enum FocalStates{
@@ -26,14 +26,18 @@ public class FeedBackController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		calm = 0;
 		specAny = GetComponent<SpectrumAnalyzer> ();
 		audioPlayer = Camera.main.GetComponent<AudioSource> ();
 		audioInput = GetComponent<SpectrumAnalyzer> ();
 		currentFocusState = FocalStates.NotFocusing;
+		toggle = GameObject.FindGameObjectWithTag("ManToggle").GetComponent<Toggle>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		notManual = toggle.enabled;
 		if (notManual) {
 			UIController.calmnessUIValue = calm; 
 		} else {
@@ -140,6 +144,6 @@ public class FeedBackController : MonoBehaviour {
 	
 	public void Manual()
 	{
-		notManual = !notManual;
+		//notManual = !notManual;
 	}
 }

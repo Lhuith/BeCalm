@@ -4,11 +4,13 @@ using System.Linq;
 
 [ExecuteInEditMode]
 public class MusicLoad : MonoBehaviour {
-	public AudioClip[] songslist;
+	public AudioClip[] Calmsongslist, NotCalmsongslist;
 	// Use this for initialization
 	void Start () {
-		AudioClip[] songsListLoad =  Resources.LoadAll<AudioClip>("Music");
-		songslist = songsListLoad;
+		AudioClip[] CalmsongsListLoad =  Resources.LoadAll<AudioClip>("Music/CalmMusic");
+		AudioClip[] NotCalmsongslistload =  Resources.LoadAll<AudioClip>("Music/NotCalmMusic");
+		Calmsongslist = CalmsongsListLoad;
+		NotCalmsongslist = NotCalmsongslistload;
 	}
 	
 	// Update is called once per frame

@@ -82,7 +82,7 @@ public class WaterGridSystem : MonoBehaviour {
 
 			if (tileDis < viewDistance) {
 
-				Debug.DrawLine (WaterGameObjectList[i].transform.position, player.transform.position, Color.green);
+				//Debug.DrawLine (WaterGameObjectList[i].transform.position, player.transform.position, Color.green);
 
 				WaterGameObjectList [i].TurnOnGameObject();
 			}else {
@@ -134,13 +134,13 @@ public class WaterGridSystem : MonoBehaviour {
 		if(WaterGameObjectList.Count < WaterVectorList.Count) {
 			GameObject watertile = Instantiate (watertileLoad, new Vector3 (WaterVector.x, WaterVector.y, WaterVector.z), transform.rotation) as GameObject;
 			watertile.transform.parent = transform;
-			watertile.GetComponent<WaveDisplacement> ().sourceimage = Gridsourceimage;
-			watertile.GetComponent<WaveDisplacement> ().targettexture = Gridsourceimage;
+			//watertile.GetComponent<WaveDisplacement> ().sourceimage = Gridsourceimage;
+			//watertile.GetComponent<WaveDisplacement> ().targettexture = Gridsourceimage;
 			//watertile.GetComponent<WaveDisplacement> ().sourceimage.Apply();
-			watertile.GetComponent<WaveDisplacement> ().width = Gridsourceimage.width;
-			watertile.GetComponent<WaveDisplacement> ().height = Gridsourceimage.height;
-			watertile.GetComponent<MeshRenderer> ().material.SetTexture ("_ExtrudeTex", Gridsourceimage);
-			watertile.GetComponent<MeshRenderer> ().material.name = "Dick" + WaterVector.x + 1;
+			//watertile.GetComponent<WaveDisplacement> ().width = Gridsourceimage.width;
+			//watertile.GetComponent<WaveDisplacement> ().height = Gridsourceimage.height;
+			//watertile.GetComponent<MeshRenderer> ().material.SetTexture ("_ExtrudeTex", Gridsourceimage);
+			//watertile.GetComponent<MeshRenderer> ().material.name = "Dick" + WaterVector.x + 1;
 			//waterMeshGridSize.viewSpaceDistance = viewDistance;
 			WaterGameObjectList.Add(watertile);
 		}

@@ -173,17 +173,17 @@ Properties{
 						v.vertex.z += (_Steepness.x *_SineAmplitude) *_Dir.y * cos(_SineFrequency.x * (dotprod + disp))/_ObjectScale.z;
 						v.vertex.y += _SineAmplitude * - sin(_SineFrequency.x*dotprod + disp )/_ObjectScale.y;
 						
-						v.normal.x += (_Steepness.x *_SineAmplitude) *_Dir.x * cos(_SineFrequency.x* (dotprod + disp))/_ObjectScale.x;
-						v.normal.z += (_Steepness.x *_SineAmplitude) *_Dir.y * cos(_SineFrequency.x * (dotprod + disp))/_ObjectScale.z;
-						v.normal.y += _SineAmplitude * - sin(_SineFrequency.x*dotprod + disp )/_ObjectScale.y;
+//						v.normal.x += (_Steepness.x *_SineAmplitude) *_Dir.x * cos(_SineFrequency.x* (dotprod + disp))/_ObjectScale.x;
+//						v.normal.z += (_Steepness.x *_SineAmplitude) *_Dir.y * cos(_SineFrequency.x * (dotprod + disp))/_ObjectScale.z;
+						//v.normal.y += _SineAmplitude * - sin(_SineFrequency.x*dotprod + disp )/_ObjectScale.y;
 						
 						v.vertex.x += (_Steepness.y *_SineAmplitude) * _Dir2.x *cos(_SineFrequency.y * (dotprod2 + disp2))/_ObjectScale.x;
 						v.vertex.z += (_Steepness.y *_SineAmplitude) *_Dir2.y*  cos (_SineFrequency.y * (dotprod2 + disp2))/_ObjectScale.z;
 						v.vertex.y += _SineAmplitude * sin(_SineFrequency.y * (dotprod2 + disp2)) /_ObjectScale.y;
 						
-						v.vertex.x += (_Steepness.y *_SineAmplitude) * _Dir2.x *cos(_SineFrequency.y * (dotprod2 + disp2))/_ObjectScale.x;
-						v.normal.z += (_Steepness.y *_SineAmplitude) *_Dir2.y*  cos (_SineFrequency.y * (dotprod2 + disp2))/_ObjectScale.z;
-						v.normal.y += _SineAmplitude * sin(_SineFrequency.y * (dotprod2 + disp2)) /_ObjectScale.y;
+						//v.vertex.x += (_Steepness.y *_SineAmplitude) * _Dir2.x *cos(_SineFrequency.y * (dotprod2 + disp2))/_ObjectScale.x;
+//						v.normal.z += (_Steepness.y *_SineAmplitude) *_Dir2.y*  cos (_SineFrequency.y * (dotprod2 + disp2))/_ObjectScale.z;
+						//v.normal.y += _SineAmplitude * sin(_SineFrequency.y * (dotprod2 + disp2)) /_ObjectScale.y;
 						//o.posWorld = mul(_Object2World, v.vertex);
 							
 						//v.vertex = mul(_World2Object, o.posWorld);
@@ -348,7 +348,7 @@ Properties{
 			texB *= texwave.r + texDetWave.r;
 			
 			//+ backScatter + translucence
-			fixed3 lightFinal =  AniospecularReflection + (sparkle * _GlitterStrengh) + (Normsparkle * _GlitterStrengh) + translucence + UNITY_LIGHTMODEL_AMBIENT.xyz;
+			fixed3 lightFinal =  AniospecularReflection + (sparkle * _GlitterStrengh) + (Normsparkle * _GlitterStrengh) + backScatter + translucence + UNITY_LIGHTMODEL_AMBIENT.xyz;
 			
 			texB.a = _Alpha;
 			

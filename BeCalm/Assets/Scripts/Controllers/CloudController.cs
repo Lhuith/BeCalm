@@ -18,6 +18,11 @@ public class CloudController : MonoBehaviour {
 	void Update () {
 		//cloudDensitiy = Clouds.particleCount;
 
+
+
+		cloudDensitiy = Mathf.Lerp (cloudDensitiyMin, cloudDensitiyMax, FeedBackController.calm);
+		//cloudEmisssive = Mathf.Lerp (cloudEmissMin, cloudDensitiyMax, FeedBackController.calm);
+
 			if (FeedBackController.musicPeak && cloudDensitiy < cloudDensitiyMax) {
 				//cloudDensitiy += Mathf.Lerp (cloudDensitiyMin, cloudDensitiyMax, cloudIntensity * Time.deltaTime);
 			} else {
@@ -28,11 +33,11 @@ public class CloudController : MonoBehaviour {
 			}
 			//
 			if (FeedBackController.musicPeak && cloudEmisssive < cloudEmissMax) {
-				cloudEmisssive += Mathf.Lerp (cloudEmissMin, cloudEmissMax, cloudEmissIntensity * Time.deltaTime);
+				//cloudEmisssive += Mathf.Lerp (cloudEmissMin, cloudEmissMax, cloudEmissIntensity * Time.deltaTime);
 			}else{
 
 				if (cloudEmisssive > cloudDensitiyMin) {
-					cloudEmisssive -= Mathf.Lerp (cloudEmissMin, cloudEmissMax, cloudEmissDropRate * Time.deltaTime);
+					//cloudEmisssive -= Mathf.Lerp (cloudEmissMin, cloudEmissMax, cloudEmissDropRate * Time.deltaTime);
 				}
 			}
 

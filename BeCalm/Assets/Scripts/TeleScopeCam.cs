@@ -15,12 +15,15 @@ public class TeleScopeCam : MonoBehaviour {
 		public Vector2 targetDirection;
 		public Vector2 targetCharacterDirection;
 		
+		public GameObject player;
+
 		// Assign this if there's a parent object controlling motion, such as a Character Controller.
 		// Yaw rotation will affect this object instead of the camera if set.
 		public GameObject characterBody;
 		
 		void Start()
 		{
+		player = CustomExtensions.GetPlayer ();
 			cam = GetComponent<Camera> ();
 			// Set target direction to the camera's initial orientation.
 			targetDirection = transform.localRotation.eulerAngles;
@@ -31,6 +34,8 @@ public class TeleScopeCam : MonoBehaviour {
 		
 		void Update()
 		{
+
+		transform.position = new Vector3 (player.transform.position.x, transform.position.y, player.transform.position.z);
 		cam.backgroundColor = Camera.main.backgroundColor;
 		float dist = 30;
 		Vector3 dir = new Vector3(0,-1,0);
